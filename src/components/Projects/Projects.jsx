@@ -1,5 +1,5 @@
 import React from 'react'
-import { Background, CardContain, CardSubContainer, Icons, ImgProject} from './styles.ts'
+import { CardContain, CardSubContainer, ProjectInfo, ImgProject} from './styles.ts'
 import react from '../imgs/react.png'
 import html from '../imgs/html.png'
 import css from '../imgs/css.png'
@@ -9,30 +9,69 @@ import abf from '../imgs/abf.png'
 
 function Projects() {
   return (
-    <Background>
-      <p>Check out my projects :</p>
       <CardContain>
         <CardSubContainer>
-          <div>
-            <p>ABF - Advocacia</p>
-            <p>Tools used in this project:</p>
-            <Icons>
-            <img src={react} alt="React Logo" />
-            <img src={html} alt="React Logo" />
-            <img src={css} alt="React Logo" />
-            <img className='js' src={js} alt="React Logo" />
-            <img className='ts' src={ts} alt="React Logo" />
-            </Icons>  
-          </div>
-          <div>
             <ImgProject>
                 <img src={abf} alt="" />
+            </ImgProject>
+            <ProjectInfo className='hoverEffect'>
+              <p>ABF - ADVOCACIA</p>
+              <div>
+                <p><img src={react} alt="React" /></p>
+                <p><img src={html} alt="HTML" /></p>
+                <p><img src={css} alt="CSS" /></p>
+                <p><img src={js} alt="JavaScript" /></p>
+                <p><img src={ts} alt="TypeScript" /></p>
+              </div>
+
+            </ProjectInfo>
+        </CardSubContainer>
+        <CardSubContainer>
+            <ImgProject>
                 <img src={abf} alt="" />
             </ImgProject>
-          </div>
+            <ProjectInfo className='hoverEffect'>
+              <p>ABF - ADVOCACIA</p>
+              <div>
+                <p><img src={react} alt="React" /></p>
+                <p><img src={html} alt="HTML" /></p>
+                <p><img src={css} alt="CSS" /></p>
+                <p><img src={js} alt="JavaScript" /></p>
+                <p><img src={ts} alt="TypeScript" /></p>
+              </div>
+            </ProjectInfo>
+        </CardSubContainer>
+        <CardSubContainer>
+            <ImgProject>
+                <img src={abf} alt="" />
+            </ImgProject>
+            <ProjectInfo className='hoverEffect'>
+              <p>ABF - ADVOCACIA</p>
+              <div>
+                <p><img src={react} alt="React" /></p>
+                <p><img src={html} alt="HTML" /></p>
+                <p><img src={css} alt="CSS" /></p>
+                <p><img src={js} alt="JavaScript" /></p>
+                <p><img src={ts} alt="TypeScript" /></p>
+              </div>
+            </ProjectInfo>
+        </CardSubContainer>
+        <CardSubContainer>
+            <ImgProject>
+                <img src={abf} alt="" />
+            </ImgProject>
+            <ProjectInfo className='hoverEffect'>
+              <p>ABF - ADVOCACIA</p>
+              <div>
+                <p><img src={react} alt="React" /></p>
+                <p><img src={html} alt="HTML" /></p>
+                <p><img src={css} alt="CSS" /></p>
+                <p><img src={js} alt="JavaScript" /></p>
+                <p><img src={ts} alt="TypeScript" /></p>
+              </div>
+            </ProjectInfo>
         </CardSubContainer>
       </CardContain>
-    </Background>
   )
 }
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Background, FirstContainer, SecondContainer, InfoCard, MainTextBlock, MainImgBlock, SecondTextBlock, Icons, TabletView, SecondTextBlockTablet, MainImgBlockTablet } from './styles.ts'
+import Projects from '../Projects/Projects.jsx'
+
 import blob from '../imgs/blob.png'
 import react from '../imgs/react.png'
 import html from '../imgs/html.png'
@@ -49,6 +51,7 @@ function Home() {
           </Icons>
         </SecondContainer>
       </InfoCard>
+      <Projects />
     </Background>
 
   )
