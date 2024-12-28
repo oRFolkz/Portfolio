@@ -45,7 +45,7 @@ export const InfoCard = styled.div`
     }
 
     @media ( width < 499px ) {
-        padding: 1rem 0 0 2rem;
+        padding: 1rem 0 0 1rem;
     }
 `
 
@@ -68,7 +68,7 @@ export const MainTextBlock = styled.div`
             margin: 0 0 0 1rem;
         }
 
-        @media ( width < 499px ) {
+        @media ( width < 399px ) {
             font-size: 1.2rem;
             margin: 0 0 0 1rem;
         }
@@ -85,7 +85,7 @@ export const MainTextBlock = styled.div`
             font-size: 4rem;
         }
 
-        @media ( width < 499px ) {
+        @media ( width < 399px ) {
             font-size: 3rem;
         }
     }
@@ -129,7 +129,7 @@ export const MainImgBlockTablet = styled.div`
         }
     }
 
-    @media ( width < 499px ) {
+    @media ( width < 399px ) {
         img {
             padding-top: 1rem;
             width: 140%;
@@ -169,13 +169,13 @@ export const SecondTextBlockTablet = styled.div`
             width: 300px;
         }
 
-        @media ( width < 499px ) {
-            font-size: 1.5rem;
-            line-height: 1.8rem;
-            width: 220px;
+        @media ( width < 480px ) {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            width: 200px;
         }
 
-        @media ( width < 499px ) {
+        @media ( width < 399px ) {
             font-size: 1rem;
             line-height: 1.4rem;
             width: 140px;
@@ -212,8 +212,13 @@ export const Icons = styled.div`
         gap: 1rem 1rem;
     }
 
-    @media ( width < 499px ) {
+    @media ( width < 480px ) {
+        width: 360px;
+    }
+
+    @media ( width < 399px ) {
         margin: 2.5rem 0 0 0;
+        width: 300px;
 
         img {
             margin: 0 .5rem 0 0;
