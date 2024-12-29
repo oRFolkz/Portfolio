@@ -12,7 +12,7 @@ export const Background = styled.div`
         color: white;
     }
 
-    @media ( width < 860px ) {
+    @media ( width < 880px ) {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -26,7 +26,7 @@ export const Background = styled.div`
 export const FirstContainer = styled.div`
     display: flex;
 
-    @media ( width < 860px ) {
+    @media ( width < 880px ) {
         display: block;
     }
 `
@@ -34,10 +34,10 @@ export const SecondContainer = styled.div`
 `
 
 export const InfoCard = styled.div`
-    padding: 4rem 0 0 4rem;
+    padding: 1rem 0 0 4rem;
     max-width: 850px;
 
-    @media ( width < 860px ) {
+    @media ( width < 880px ) {
         max-width: 490px;
         padding: 4rem 0 0 0;
         display: flex;
@@ -58,7 +58,7 @@ export const MainTextBlock = styled.div`
         margin: 0 3.2rem 0 0;
         font-size: 2rem;
 
-        @media ( width < 860px ) {
+        @media ( width < 880px ) {
             font-weight: 500;
             text-align: start;
             margin: 0 0 0 3.2rem;
@@ -102,7 +102,7 @@ export const MainImgBlock = styled.div`
             height: 250%;
         }
 
-    @media ( width < 860px ) {
+    @media ( width < 880px ) {
         display: none;
     }
 `   
@@ -117,7 +117,7 @@ export const MainImgBlockTablet = styled.div`
         height: 220%;
     }
 
-    @media ( width < 860px ) {
+    @media ( width < 880px ) {
         align-item: end;
         display: flex;
     }
@@ -149,7 +149,7 @@ export const SecondTextBlock = styled.div`
         line-height: 2rem;
     }
 
-    @media ( width < 860px ) {
+    @media ( width < 880px ) {
         display: none;
     }
 `
@@ -188,6 +188,7 @@ export const Icons = styled.div`
     width: auto;
     margin: 4rem 0 0 0;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     font-size: 3rem;
     color: black;
@@ -199,40 +200,34 @@ export const Icons = styled.div`
     }
 
     .ts {
-        margin: 0 0 0 0; !important
-        width: 75px;
+        margin: 0 0 0 -.5rem; !important;
+        width: 80px;
     }
 
     .js {
-        margin: 0 0 0 0; !important
-        width: 75px;
+        margin: 0 0 0 0; !important;
+        width: 80px;
     }
 
-    @media ( width < 600px ) {
+    @media ( width < 880px ) {
+        width: 560px;    
         flex-wrap: wrap;
         gap: 1rem 1rem;
     }
 
-    @media ( width < 480px ) {
-        width: 360px;
+    @media ( width < 640px ) {
+        width: 100%;
     }
 
     @media ( width < 399px ) {
-        margin: 2.5rem 0 0 0;
         width: 300px;
-
-        img {
-            margin: 0 .5rem 0 0;
-            width: 50px;
-            height: 50px;
-        }
     }
 `
 
 export const TabletView = styled.div`
     display: none;    
 
-    @media ( width < 860px ) {
+    @media ( width < 880px ) {
         display: flex;
     }
 `

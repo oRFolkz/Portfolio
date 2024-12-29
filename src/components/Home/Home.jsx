@@ -8,8 +8,10 @@ import html from '../imgs/html.png'
 import css from '../imgs/css.png'
 import js from '../imgs/js.png'
 import ts from '../imgs/ts.png'
-import python from '../imgs/python.png'
 import ruby from '../imgs/ruby.png'
+import python from '../imgs/python.png'
+import sql from '../imgs/sql.png'
+import github from '../imgs/github.png'
 
 
 
@@ -42,12 +44,14 @@ function Home() {
           </SecondTextBlock>
           <Icons>
             <img src={react} alt="React Logo" />
-            <img src={html} alt="React Logo" />
-            <img src={css} alt="React Logo" />
-            <img className='js' src={js} alt="React Logo" />
-            <img className='ts' src={ts} alt="React Logo" />
-            <img src={python} alt="React Logo" />
-            <img src={ruby} alt="React Logo" />
+            <img src={html} alt="HTML Logo" />
+            <img src={css} alt="CSS Logo" />
+            <img className='js' src={js} alt="JavaScript Logo" />
+            <img className='ts' src={ts} alt="TypeScript Logo" />
+            <img src={github} alt="GitHub Logo" />
+            <img src={ruby} alt="Ruby Logo" />
+            <img src={python} alt="Python Logo" />
+            <img src={sql} alt="SQL Logo" />
           </Icons>
         </SecondContainer>
       </InfoCard>

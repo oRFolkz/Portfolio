@@ -1,26 +1,21 @@
 import styled from 'styled-components'
 
 export const CardContain = styled.div`
-    padding: 2rem 0 0 4em;
+    padding: 2rem 0 0 3.5em;
     display: flex;
     flex-wrap: wrap;
-    max-width: 850px;
     justify-content: start;
 
     @media ( width < 600px ) {
-        padding-left: 2rem;
-    }
-
-    @media ( width < 480px ) {
-        padding-left: 2rem;
+        padding: 2rem 0 0 1rem;
     }
 `
 
 export const CardSubContainer = styled.div`
     display: flex;
     justify-content: center;
-    width: 400px;
-    height: 300px;
+    width: 900px;
+    height: 600px;
     border-radius: 1rem;
     overflow: hidden;
     margin: 0 1rem 1rem 0;
@@ -32,16 +27,16 @@ export const CardSubContainer = styled.div`
         bottom: 0px;
     }
 
-    @media ( width < 920px ) {
-        width: 46%;
+    @media ( width < 980px ) {
+        width: 95%;
     }
 
-    @media ( width < 600px ) {
-        width: 430px;
+    @media ( width < 800px ) {
+        height: 400px;
     }
 
-    @media ( width < 480px ) {
-        width: 90%;
+    @media ( width < 440px ) {
+        height: 300px;
     }
 `
 
@@ -64,7 +59,7 @@ export const ImgProject = styled.div`
 export const ProjectInfo = styled.div`
     position: absolute;
     content: '';
-    bottom: -300px;
+    bottom: -600px;
     left: 0;
     width: 100%;
     height: 100%;
